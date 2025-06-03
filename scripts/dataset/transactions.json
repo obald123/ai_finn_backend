@@ -1,0 +1,410 @@
+[
+  {
+    "id": "1",
+    "date": "2025-07-01T00:00:00.000Z",
+    "amount": 15000,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Wholesale order of women's bags"
+  },
+  {
+    "id": "2",
+    "date": "2025-07-02T00:00:00.000Z",
+    "amount": 5000,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of leather and fabric"
+  },
+  {
+    "id": "3",
+    "date": "2025-01-03T00:00:00.000Z",
+    "amount": 3000,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Factory labor costs"
+  },
+  {
+    "id": "4",
+    "date": "2025-07-04T00:00:00.000Z",
+    "amount": 1200,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Electricity and water bills for factory"
+  },
+  {
+    "id": "5",
+    "date": "2025-07-05T00:00:00.000Z",
+    "amount": 2500,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Social media advertising campaign"
+  },
+  {
+    "id": "6",
+    "date": "2025-01-06T00:00:00.000Z",
+    "amount": 800,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Shipping costs for raw materials"
+  },
+  {
+    "id": "7",
+    "date": "2025-07-07T00:00:00.000Z",
+    "amount": 16000,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Retail sales of purses"
+  },
+  {
+    "id": "8",
+    "date": "2025-07-08T00:00:00.000Z",
+    "amount": 5200,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of zippers and buttons"
+  },
+  {
+    "id": "9",
+    "date": "2025-07-09T00:00:00.000Z",
+    "amount": 3100,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Overtime labor costs"
+  },
+  {
+    "id": "10",
+    "date": "2025-07-10T00:00:00.000Z",
+    "amount": 1300,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Gas and electricity bills"
+  },
+  {
+    "id": "11",
+    "date": "2025-01-11T00:00:00.000Z",
+    "amount": 2700,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Influencer partnership"
+  },
+  {
+    "id": "12",
+    "date": "2025-01-12T00:00:00.000Z",
+    "amount": 900,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Warehouse storage fees"
+  },
+  {
+    "id": "13",
+    "date": "2025-01-13T00:00:00.000Z",
+    "amount": 17000,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Bulk order from boutique"
+  },
+  {
+    "id": "14",
+    "date": "2025-01-14T00:00:00.000Z",
+    "amount": 5400,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of lining and thread"
+  },
+  {
+    "id": "15",
+    "date": "2025-01-15T00:00:00.000Z",
+    "amount": 3200,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Quality control and inspection"
+  },
+  {
+    "id": "16",
+    "date": "2025-07-16T00:00:00.000Z",
+    "amount": 1400,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Water and electricity bills"
+  },
+  {
+    "id": "17",
+    "date": "2025-01-17T00:00:00.000Z",
+    "amount": 2600,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Email marketing campaign"
+  },
+  {
+    "id": "18",
+    "date": "2025-01-18T00:00:00.000Z",
+    "amount": 850,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Courier services"
+  },
+  {
+    "id": "19",
+    "date": "2025-01-19T00:00:00.000Z",
+    "amount": 18000,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Seasonal sale revenue"
+  },
+  {
+    "id": "20",
+    "date": "2025-01-20T00:00:00.000Z",
+    "amount": 5600,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of packaging materials"
+  },
+  {
+    "id": "21",
+    "date": "2025-01-21T00:00:00.000Z",
+    "amount": 3300,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Machine maintenance"
+  },
+  {
+    "id": "22",
+    "date": "2025-01-22T00:00:00.000Z",
+    "amount": 1500,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Factory heating bills"
+  },
+  {
+    "id": "23",
+    "date": "2025-01-23T00:00:00.000Z",
+    "amount": 2800,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Print advertising"
+  },
+  {
+    "id": "24",
+    "date": "2025-01-24T00:00:00.000Z",
+    "amount": 950,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Freight charges"
+  },
+  {
+    "id": "25",
+    "date": "2025-07-25T00:00:00.000Z",
+    "amount": 15500,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Online store sales"
+  },
+  {
+    "id": "26",
+    "date": "2025-07-26T00:00:00.000Z",
+    "amount": 8800,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of hardware accessories"
+  },
+  {
+    "id": "27",
+    "date": "2025-01-27T00:00:00.000Z",
+    "amount": 3400,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Staff overtime"
+  },
+  {
+    "id": "28",
+    "date": "2025-01-28T00:00:00.000Z",
+    "amount": 1600,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Electricity and water"
+  },
+  {
+    "id": "29",
+    "date": "2025-01-29T00:00:00.000Z",
+    "amount": 2700,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Event sponsorship"
+  },
+  {
+    "id": "30",
+    "date": "2025-01-30T00:00:00.000Z",
+    "amount": 1000,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Warehouse rent"
+  },
+  {
+    "id": "31",
+    "date": "2025-01-31T00:00:00.000Z",
+    "amount": 16500,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Corporate bulk order"
+  },
+  {
+    "id": "32",
+    "date": "2025-02-01T00:00:00.000Z",
+    "amount": 6000,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of dyes and paints"
+  },
+  {
+    "id": "33",
+    "date": "2025-02-02T00:00:00.000Z",
+    "amount": 3500,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Equipment repair"
+  },
+  {
+    "id": "34",
+    "date": "2025-02-03T00:00:00.000Z",
+    "amount": 1700,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Heating and cooling bills"
+  },
+  {
+    "id": "35",
+    "date": "2025-02-04T00:00:00.000Z",
+    "amount": 2900,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Online ads"
+  },
+  {
+    "id": "36",
+    "date": "2025-02-05T00:00:00.000Z",
+    "amount": 1100,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Courier and delivery"
+  },
+  {
+    "id": "37",
+    "date": "2025-02-06T00:00:00.000Z",
+    "amount": 17500,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Seasonal collection sales"
+  },
+  {
+    "id": "38",
+    "date": "2025-02-07T00:00:00.000Z",
+    "amount": 5900,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of packaging supplies"
+  },
+  {
+    "id": "39",
+    "date": "2025-02-08T00:00:00.000Z",
+    "amount": 3600,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Staff training"
+  },
+  {
+    "id": "40",
+    "date": "2025-02-09T00:00:00.000Z",
+    "amount": 1800,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Factory maintenance"
+  },
+  {
+    "id": "41",
+    "date": "2025-02-10T00:00:00.000Z",
+    "amount": 3000,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Trade show participation"
+  },
+  {
+    "id": "42",
+    "date": "2025-02-11T00:00:00.000Z",
+    "amount": 1200,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Freight and shipping"
+  },
+  {
+    "id": "43",
+    "date": "2025-02-12T00:00:00.000Z",
+    "amount": 19000,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "New product launch sales"
+  },
+  {
+    "id": "44",
+    "date": "2025-02-13T00:00:00.000Z",
+    "amount": 6200,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Purchase of new materials"
+  },
+  {
+    "id": "45",
+    "date": "2025-02-14T00:00:00.000Z",
+    "amount": 3700,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Production line upgrades"
+  },
+  {
+    "id": "46",
+    "date": "2025-02-15T00:00:00.000Z",
+    "amount": 1600,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Energy consumption"
+  },
+  {
+    "id": "47",
+    "date": "2025-02-16T00:00:00.000Z",
+    "amount": 3100,
+    "type": "expense",
+    "category": "Marketing",
+    "description": "Customer loyalty program"
+  },
+  {
+    "id": "48",
+    "date": "2025-02-17T00:00:00.000Z",
+    "amount": 1300,
+    "type": "expense",
+    "category": "Logistics",
+    "description": "Inventory management"
+  },
+  {
+    "id": "49",
+    "date": "2025-02-18T00:00:00.000Z",
+    "amount": 19500,
+    "type": "income",
+    "category": "Product Sales",
+    "description": "Holiday season sales"
+  },
+  {
+    "id": "50",
+    "date": "2025-02-19T00:00:00.000Z",
+    "amount": 8500,
+    "type": "expense",
+    "category": "Raw Materials",
+    "description": "Bulk purchase of leather"
+  },
+  {
+    "id": "51",
+    "date": "2025-02-20T00:00:00.000Z",
+    "amount": 3800,
+    "type": "expense",
+    "category": "Manufacturing",
+    "description": "Equipment maintenance"
+  }
+]

@@ -1,0 +1,96 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Transaction {
+  id          String   @id @default(uuid())
+  date        DateTime
+  amount      Decimal
+  type        String
+  category    String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([date])
+  @@index([type])
+  @@index([category])
+}
+
+model FinancialMetrics {
+  id              String   @id @default(uuid())
+  currentBalance  Decimal  @default(0)
+  monthlyRevenue  Decimal  @default(0)
+  monthlyExpenses Decimal  @default(0)
+  profitMargin    Decimal  @default(0)
+  cashFlow        Decimal  @default(0)
+  updatedAt       DateTime @updatedAt
+}
+
+model Payroll {
+  id          String   @id @default(uuid())
+  employeeId  String
+  salary      Decimal
+  deductions  Json     @default("{}")
+  netPay      Decimal
+  paymentDate DateTime
+  status      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([employeeId])
+  @@index([paymentDate])
+}
+
+model PredictionModel {
+  id          String   @id @default(uuid())
+  name        String
+  type        String
+  parameters  Json
+  accuracy    Decimal
+  lastUpdated DateTime @default(now())
+  createdAt   DateTime @default(now())
+
+  @@index([type])
+}
+
+model Role {
+  id    String @id @default(uuid())
+  name  String @unique
+  users User[]
+}
+
+model User {
+  id                   String    @id @default(uuid())
+  email                String    @unique
+  password             String
+  firstName            String?
+  lastName             String?
+  dateOfBirth          DateTime?
+  gender               String?
+  address              String?
+  idNumber             String?
+  profilePicture       String?
+  username             String?   @unique
+  notificationsEnabled Boolean   @default(true)
+  theme                String    @default("light")
+  roleId               String
+  role                 Role      @relation(fields: [roleId], references: [id])
+  passwordResetTokens  PasswordResetToken[]
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+}
+
+model PasswordResetToken {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}

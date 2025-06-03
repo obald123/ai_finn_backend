@@ -1,0 +1,46 @@
+services:
+  - type: web
+    name: ai-finance-assistant-backend
+    env: node
+    plan: starter
+    buildCommand: npm install && npm run build && npm run prisma:generate && npm run prisma:migrate
+    startCommand: npm run start:all-scripts
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: SESSION_SECRET
+        fromDatabase: false
+        value: ""
+      - key: JWT_SECRET
+        fromDatabase: false
+        value: ""
+      - key: SMTP_HOST
+        fromDatabase: false
+        value: ""
+      - key: SMTP_PORT
+        fromDatabase: false
+        value: ""
+      - key: SMTP_USER
+        fromDatabase: false
+        value: ""
+      - key: SMTP_PASS
+        fromDatabase: false
+        value: ""
+      - key: SMTP_FROM
+        fromDatabase: false
+        value: ""
+      - key: GOOGLE_CLIENT_ID
+        fromDatabase: false
+        value: ""
+      - key: GOOGLE_CLIENT_SECRET
+        fromDatabase: false
+        value: ""
+      - key: FRONTEND_URL
+        fromDatabase: false
+        value: ""
+      - key: NODE_ENV
+        fromDatabase: false
+        value: "production"
+      - key: DATABASE_URL
+        fromDatabase: false
+        value: ""
